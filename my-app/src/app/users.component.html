@@ -4,17 +4,17 @@
     <thead>
       <tr>
         <th>User Id</th>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
+        <th>Employee name</th>
+        <th>Sur name</th>
+        <th>Email-address</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let user of users; let i = index">
         <td>{{i + 1}}</td>
-        <td>{{user.firstName}}</td>
-        <td>{{user.lastName}}</td>
-        <td>{{user.email}}</td>
+        <td>{{user.Employee name}}</td>
+        <td>{{user.Sur name}}</td>
+        <td>{{user.Email-address}}</td>
       </tr>
     </tbody>
   </table>
